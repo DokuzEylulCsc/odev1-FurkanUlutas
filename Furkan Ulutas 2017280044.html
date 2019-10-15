@@ -1,0 +1,39 @@
+
+<!DOCTYPE html>
+<html>
+<body>
+<title>Furkan Ulutas 2017280044 </title>
+<h1><div align="center">Furkan Ulutas 2017280044 </div></title>
+<h2>2019 Güz Döneminin ilk ödevi</h2>
+<label for="id1">Metin kutusu 1</label>
+<input type='text' id='id1'/>
+<br>
+<label for="id2">Metin kutusu 2</label>
+<input type='text' id='id2'/>
+<br><br>
+<script>
+function Toplama(){
+ i= parseInt(document.getElementById('id1').value);
+ j= parseInt(document.getElementById('id2').value);
+ alert("Toplama islemi sonucu:"+(i+j));
+}
+function Birlestirme(){
+var b;
+i=document.getElementById('id3').value;
+j=document.getElementById('id4').value;
+b="Birlestirme islemi sonucu:"+i+j;
+alert(b);
+}
+</script>
+<button type="button" onmousedown="Toplama()" >Topla</button>
+
+<br><br>
+<label for="id3">Metin kutusu 3</label>
+<input type='text' id='id3' />
+<br>
+<label for="id4">Metin kutusu 4</label>
+<input type='text' id='id4' />
+<br><br>
+<button type="button" onmousedown="Birlestirme()">Yapýþtýr</button>
+</body>
+</html>
